@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexboxes</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
 
     <style>
       body {
@@ -20,6 +24,42 @@
         height: 600px;
         border-radius: 10px;
         background-color: #f4effc;
+      }
+
+      .cards-container2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        flex-wrap: wrap;
+        margin: 30px;
+        border-radius: 10px;
+        background-color: #f4effc;
+      }
+
+      .cards-container3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 30px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #f4effc;
+      }
+
+      .watch-description h1 {
+        position: relative;
+        top: 150px;
+        right: 60px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #1b1325;
+      }
+
+      .watch-description p {
+        font-size: 20px;
+        font-weight: normal;
+        position: relative;
+        top: 150px;
       }
 
       .card {
@@ -167,6 +207,92 @@
         <p class="p1">iPhone 13</p>
         <p class="p2">All kinds of awesome.</p>
         <p class="p3">From ₹59,600.00/-</p>
+        <button class="btn1">Learn More</button>
+        <button class="btn2">Buy</button>
+      </div>
+    </div>
+
+    <div class="cards-container2">
+      <div class="watch-description">
+        <h1>Get to know Apple Watch.</h1>
+        <p>Explore the line-up.</p>
+      </div>
+      <div class="card">
+        <img
+          src="https://www.apple.com/v/watch/bn/images/overview/select/product_se__frx4hb13romm_xlarge.png"
+          alt="image"
+          class="image"
+        />
+        <p class="p1">Apple Watch SE</p>
+        <p class="p2">All the essentials. Light on price.</p>
+        <p class="p3">From ₹29,900.00/-</p>
+        <button class="btn1">Learn More</button>
+        <button class="btn2">Buy</button>
+      </div>
+      <div class="card">
+        <img
+          src="https://www.apple.com/in/watch/images/overview/select/product_s9__b8uw2qgcgw1y_xlarge.png"
+          alt="image"
+          class="image"
+        />
+        <p class="p1">Apple Watch Series 9</p>
+        <p class="p2">Powerful sensors, advanced health features.</p>
+        <p class="p3">From ₹41,900.00/-</p>
+        <button class="btn1">Learn More</button>
+        <button class="btn2">Buy</button>
+      </div>
+      <div class="card">
+        <img
+          src="https://www.apple.com/in/watch/images/overview/select/product_u2__ebztafh9rvau_xlarge.png"
+          alt="image"
+          class="image"
+        />
+        <p class="p1">Apple Watch Ultra 2</p>
+        <p class="p2">The most rugged and capable.</p>
+        <p class="p3">From ₹89,900.00/-</p>
+        <button class="btn1">Learn More</button>
+        <button class="btn2">Buy</button>
+      </div>
+    </div>
+
+    <div class="cards-container3">
+      <div class="card">
+        <img
+          src="https://www.apple.com/v/ipad/home/ck/images/overview/select/product-tile/pt_ipad_pro__6bgrkek0jnm2_xlarge.png"
+          alt="image"
+          class="image"
+        />
+        <p class="p1">iPad Pro</p>
+        <p class="p2">
+          The ultimate iPad experience with the most advanced technology.
+        </p>
+        <p class="p3">From ₹99,900.00/-</p>
+        <button class="btn1">Learn More</button>
+        <button class="btn2">Buy</button>
+      </div>
+      <div class="card">
+        <img
+          src="https://www.apple.com/v/ipad/home/ck/images/overview/select/product-tile/pt_ipad_air__cr381zljqdiu_xlarge.png"
+          alt="image"
+          class="image"
+        />
+        <p class="p1">iPad Air</p>
+        <p class="p2">Serious performance in a thin and light design.</p>
+        <p class="p3">From ₹59,900.00/-</p>
+        <button class="btn1">Learn More</button>
+        <button class="btn2">Buy</button>
+      </div>
+      <div class="card">
+        <img
+          src="https://www.apple.com/v/ipad/home/ck/images/overview/select/product-tile/pt_ipad_10th_gen__ej5p5x6yf2gm_xlarge.png"
+          alt="image"
+          class="image"
+        />
+        <p class="p1">iPad</p>
+        <p class="p2">
+          The colourful, all‑screen iPad for the things you do every day.
+        </p>
+        <p class="p3">From ₹49,900.00/-</p>
         <button class="btn1">Learn More</button>
         <button class="btn2">Buy</button>
       </div>
