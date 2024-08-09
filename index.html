@@ -4,6 +4,105 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexboxes</title>
+
+    <style>
+        .card {
+        height: 400px;
+        width: 250px;
+        background-color: #e2daeb;
+        border-radius: 20px;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #67568c;
+        box-shadow: 0 4px 8px #b9afcf;
+      }
+
+      .image {
+        height: 220px;
+        border-radius: 25px;
+        display: block;
+        margin: 5px auto;
+        transition: height 0.3s ease;
+      }
+
+      .image:hover {
+        height: 221px;
+        transform: scale(1.05);
+      }
+
+      .p1 {
+        color: #1b1325;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .p2 {
+        color: #1b1325;
+        font-size: 15px;
+        text-align: center;
+        font-weight: normal;
+        position: relative;
+        bottom: 15px;
+      }
+
+      .p3 {
+        color: #1b1325;
+        font-size: 17px;
+        text-align: center;
+        font-weight: bolder;
+        position: relative;
+        bottom: 25px;
+      }
+
+      .btn1 {
+        height: 30px;
+        width: 100px;
+        background-color: #67568c;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+        bottom: 22px;
+        left: 20px;
+      }
+
+      .btn1:active {
+        font-size: 13px;
+      }
+
+      .btn1:hover {
+        background-color: #8271a8;
+        color: #1b1325;
+      }
+
+      .btn2 {
+        height: 30px;
+        width: 100px;
+        background-color: white;
+        color: #67568c;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+        bottom: 22px;
+        left: 25px;
+      }
+
+      .btn2:active {
+        font-size: 13px;
+      }
+
+      .btn2:hover {
+        background-color: #1b1325;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <div class="cards-container">
