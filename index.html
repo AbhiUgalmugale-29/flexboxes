@@ -6,7 +6,23 @@
     <title>Flexboxes</title>
 
     <style>
-        .card {
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+
+      .cards-container {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 30px;
+        height: 600px;
+        border-radius: 10px;
+        background-color: #f4effc;
+      }
+
+      .card {
         height: 400px;
         width: 250px;
         background-color: #e2daeb;
@@ -115,6 +131,42 @@
         <p class="p1">iphone 15 pro</p>
         <p class="p2">The ultimate iphone</p>
         <p class="p3">From ₹1,29,800.00/-</p>
+        <button class="btn1">Learn More</button>
+        <button class="btn2">Buy</button>
+      </div>
+      <div class="card">
+        <img
+          src="https://www.apple.com/v/iphone/home/bv/images/overview/select/iphone_15__fm75iyqlkjau_xlarge.png"
+          alt="image"
+          class="image"
+        />
+        <p class="p1">iphone 15</p>
+        <p class="p2">A total powerhouse</p>
+        <p class="p3">From ₹79,600.00/-</p>
+        <button class="btn1">Learn More</button>
+        <button class="btn2">Buy</button>
+      </div>
+      <div class="card">
+        <img
+          src="https://www.apple.com/v/iphone/home/bv/images/overview/select/iphone_14__cjgvgyn9cquu_xlarge.png"
+          alt="image"
+          class="image"
+        />
+        <p class="p1">iPhone 14</p>
+        <p class="p2">As amazing as ever.</p>
+        <p class="p3">From ₹69,600.00/-</p>
+        <button class="btn1">Learn More</button>
+        <button class="btn2">Buy</button>
+      </div>
+      <div class="card">
+        <img
+          src="https://www.apple.com/v/iphone/home/bv/images/overview/select/iphone_13__gnwdyqfq7i2y_xlarge.png"
+          alt="image"
+          class="image"
+        />
+        <p class="p1">iPhone 13</p>
+        <p class="p2">All kinds of awesome.</p>
+        <p class="p3">From ₹59,600.00/-</p>
         <button class="btn1">Learn More</button>
         <button class="btn2">Buy</button>
       </div>
